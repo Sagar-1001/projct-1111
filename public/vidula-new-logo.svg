@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3E9D"/>
+      <stop offset="100%" stop-color="#7E2EFF"/>
+    </linearGradient>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8E42"/>
+      <stop offset="100%" stop-color="#FF4B4B"/>
+    </linearGradient>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4AFF78"/>
+      <stop offset="100%" stop-color="#00D1C5"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Chat bubble base -->
+  <path d="M150,200 C120,200 100,220 100,250 L100,550 C100,580 120,600 150,600 L200,600 L200,700 L300,600 L650,600 C680,600 700,580 700,550 L700,250 C700,220 680,200 650,200 L150,200 Z" fill="url(#orangeGradient)"/>
+  
+  <!-- Purple wave overlay -->
+  <path d="M150,200 C120,200 100,220 100,250 L100,550 C100,580 120,600 150,600 L200,600 L200,500 C200,400 300,350 400,350 C500,350 550,300 550,250 C550,220 500,200 450,200 L150,200 Z" fill="url(#purpleGradient)"/>
+  
+  <!-- Video camera part -->
+  <path d="M650,300 L700,250 L700,550 L650,500 C600,450 600,350 650,300 Z" fill="url(#greenGradient)"/>
+  
+  <!-- White dots -->
+  <circle cx="250" cy="400" r="40" fill="white"/>
+  <circle cx="400" cy="400" r="40" fill="white"/>
+  <circle cx="550" cy="400" r="40" fill="white"/>
+</svg>
